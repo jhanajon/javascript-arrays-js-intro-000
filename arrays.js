@@ -26,5 +26,5 @@ function destructivelyAddElementToEndOfArray(array, element) {
 
 function accessElementInArray(array, index) {
   array = array[index]
-  console.log(chocolateBars[3])
+  console.log(array[])
 }
