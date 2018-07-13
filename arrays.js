@@ -28,3 +28,8 @@ function accessElementInArray(array, index) {
   choice = array[index]
   console.log(choice[2])
 }
+
+function accessElementInArray(array, index) {
+  return array[index]
+  //console.log(array[0])
+}
