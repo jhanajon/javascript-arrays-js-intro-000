@@ -7,3 +7,9 @@ function addElementToBeginningOfArray(array, element) {
 }
 
 addElementToBeginningOfArray(chocolateBars,'foo')
+
+
+destructivelyAddElementToBeginningOfArray(array, element){
+    array = array.unshift(element)
+    return(array)
+}
