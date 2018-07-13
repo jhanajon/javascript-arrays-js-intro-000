@@ -31,5 +31,4 @@ function accessElementInArray(array, index) {
 
 function accessElementInArray(array, index) {
   return array[index]
-  //console.log(array[0])
 }
